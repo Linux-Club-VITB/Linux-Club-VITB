@@ -704,6 +704,7 @@ form input {
 }
 form input text{
     font-size: 1vw;
+    width:100%;
 }
 .form-button {
     text-align: center;
