@@ -619,9 +619,6 @@ body {
     }
 }
 
-
-
-
 #contact-us {
     margin-top: 30vh;
 }
@@ -687,9 +684,7 @@ body {
     margin-bottom: 2vh;
     text-align: center;
 }
-form{
-    width:100%;
-}
+
 
 form label {
     font-size: 1.5vw;
@@ -732,6 +727,9 @@ form button:hover {
     color: white;
     
 }
+
+
+
 @media (max-width:600px) {
     #contact-us{
         margin-top:10vh;
