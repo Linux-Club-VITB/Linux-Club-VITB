@@ -687,7 +687,9 @@ body {
     margin-bottom: 2vh;
     text-align: center;
 }
-
+form{
+    width:100%;
+}
 
 form label {
     font-size: 1.5vw;
