@@ -639,7 +639,7 @@ body {
 
 .address-heading {
     color: #8602FA;
-    font-size:2vw;
+    font-size: 2vw;
     font-weight: 550;
     margin-bottom: 4vh;
 }
@@ -669,7 +669,7 @@ body {
     width: 50%;
     margin-left: 25%;
     align-items: center;
-
+    text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -685,6 +685,9 @@ body {
     text-align: center;
 }
 
+form{
+    text-align: left;
+}
 
 form label {
     font-size: 1.5vw;
@@ -696,6 +699,7 @@ form label {
 form input {
     border: none;
     border-radius: 5px;
+    width: 100%;
     color: #0F0727;
 }
 form input text{
@@ -727,8 +731,6 @@ form button:hover {
     color: white;
     
 }
-
-
 
 @media (max-width:600px) {
     #contact-us{
