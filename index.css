@@ -666,15 +666,19 @@ body {
 }
 
 .form-box {
-    margin-top: 7vh;
-    width: 50%;
-    margin-left: 25%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin-top: 5vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+form {
+    padding: 0vw 4vw;
+    width: 90%;
+    max-width: 600px;
     display: flex;
+    gap: 0vh;
     flex-direction: column;
-    gap: 3vh;
     border-radius: 15px;
     color: white;
     background-color: #290460;
@@ -682,31 +686,29 @@ body {
 
 .message {
     font-size: 3vw;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     text-align: center;
+    color: white;
 }
 
-form{
-    text-align: left;
-}
+
 
 form label {
     font-size: 1.5vw;
     text-align: left;
-    margin-bottom: 1.5vh;
-    margin-top: 2vh;
+    margin-bottom: -2vh;
 }
 
-form input {
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    color: #0F0727;
+form input,form textarea {
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    background: white;
+    font-size:1vw ;
+    margin-bottom: -3vh;
 }
-form input text{
-    font-size: 1vw;
-    width:100%;
-}
+
 .form-button {
     text-align: center;
     align-items: center;
@@ -721,7 +723,7 @@ form button {
     font-family: quicksand;
     color: #0F0727;
     font-size: 1.5vw;
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -731,8 +733,6 @@ form button {
 form button:hover {
     background-color: #8602FA;
     color: white;
-    
-}
 
 @media (max-width:600px) {
     #contact-us{
