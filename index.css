@@ -733,7 +733,7 @@ form button {
 form button:hover {
     background-color: #8602FA;
     color: white;
-
+}
 @media (max-width:600px) {
     #contact-us{
         margin-top:10vh;
