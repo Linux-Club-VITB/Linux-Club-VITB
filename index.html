@@ -16,6 +16,17 @@
 </head>
 
 <body>
+        <div class="loading-overlay">
+            <div class="loading-text" data-aos="fade-right" data-aos="fade-left">Hello...<br><span class="loading-text-color">Namaste..<img src="data:image/png;base64,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"></span></div>
+            <div class="loading-spinner"></div>
+        </div>
+        <script>
+            setTimeout(function () {
+                var loadingOverlay = document.querySelector('.loading-overlay');
+                loadingOverlay.parentNode.removeChild(loadingOverlay);
+            }, 2000);
+        </script>
+
     <div class="cursor-dot"></div>
     <div class="cursor-outline"></div>
     <script>
