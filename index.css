@@ -11,12 +11,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0F0727; /* Semi-transparent white background */
+    background-color: #0F0727;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Ensure it's above other content */
+    z-index: 9999;
 }
 
 .loading-text {
@@ -80,6 +80,15 @@ body {
     border-radius: 50%;
     z-index: 1;
     pointer-events: none;
+}
+
+@media (max-width:600px) {
+    .cursor-dot{
+        display: none;
+    }
+    .cursor-outline{
+        display: none;
+    }
 }
 
 /*color: #8602FA;*/
@@ -314,7 +323,32 @@ body {
         font-size: 7vw;
     }
 }
+@media (min-width:1000px) {
+    .earth{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (min-width:1300px) {
+    .earth{
+    width: 300px;
+    height: 300px;}
+}
+@media (min-width:1600px) {
+    .earth{
+        margin-top: -100px;
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (min-width:2300px) {
+    .earth{
+        margin-top: 0px;
+        width: 500px;
+        height: 500px;
+    }
 
+}
 
 .about {
     align-items: center;
@@ -651,10 +685,13 @@ body {
         gap: 5vh;
     }
     .container{
-        width: 150px;
-        height: 250px;
+        width: 230px;
+        height: 270px;
     }
-
+    .front-1,.front-2,
+    .back {
+        border-radius: 1.7rem;
+    }
     .front-1{
         background-image: url(Third-Eye-Quest-1.png);
     }
@@ -665,8 +702,36 @@ body {
         font-size: 4vw;
     }
     .event-desc{
-        font-size: 1.2vw;
-        line-height: 2vh;
+        font-size: 1.9vw;
+        line-height: 1.35vh;
+    }
+}
+@media (min-width:1600px) {
+    .container{
+        width: 400px;
+        height: 600px;
+    }
+}
+@media (min-width:2300px) {
+    .container{
+        width: 500px;
+        height: 750px;
+    }
+    .event-name{
+        font-size: 60px
+    }
+    .event-desc{
+        font-size: 20px;
+    }
+    .front-1,.front-2,
+    .back {
+        border-radius: 2.3rem;
+    }
+    .front-1{
+        background-image: url(Third-Eye-Quest-2.png);
+    }
+    .front-2{
+        background-image: url(Silent-disco-2.png);
     }
 }
 
@@ -758,6 +823,13 @@ body {
         margin-bottom: 2vh;
     }
 }
+@media (min-width:2000px) {
+    .faculty1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
 
 #our-team {
     margin-top: 30vh;
@@ -842,8 +914,18 @@ body {
         font-size: 2vw;
     }
 }
-
-
+@media (min-width:1600px) {
+    .member1 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width:2300px) {
+    .member1 img {
+        width: 250px;
+        height: 250px;
+    }
+}
 
 
 #contact-us {
@@ -1027,7 +1109,11 @@ form button:hover {
         font-size: 3vw;
     }
 }
-
+@media (min-width:2000px) {
+    form{
+        gap: 1vh;
+    }
+}
 
 
 footer {
