@@ -485,13 +485,13 @@ body {
     filter: grayscale(0%);
 }
 
-.unstop {
-    width: 10vw;
+.Give-my-Certificate {
+    width: 20vw;
     height: auto;
     filter: grayscale(100%);
 }
 
-.unstop:hover {
+.Give-my-Certificate:hover {
     filter: grayscale(0%);
 }
 
